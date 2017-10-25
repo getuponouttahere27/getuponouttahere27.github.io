@@ -1,0 +1,107 @@
+*{ margin: 0 auto;}
+
+body {
+	background: #2c3138;
+	margin: 0 auto; 
+	font-family: Verdana;
+	color: white; 
+	height:2000px;
+	}
+
+#header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:#666;
+	height:40px; 
+	width:100%;
+	}
+
+#nav {
+	list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2c3138;
+        position: fixed;
+        top:0px;
+        width: 100%;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#nav li a:hover {
+    background-color: #111;
+}
+
+#nav li {
+    float: left;
+}
+
+#page-wrap p {
+	font-size: 1.5em;
+}
+	
+#page1 {
+	height:1100px;
+	width:1000px;
+	text-align: center;
+	}
+
+#page1 p{
+	font-size:4em;
+}
+	
+#page2 {
+	height:1100px;
+	width:800px;
+	
+	}
+
+#page2 p{
+	font-size:1.25em;
+}
+
+#page2 p2{
+	font-size: 1.1em;
+}
+
+#contactus {
+	text-align: center;
+	width: auto;
+}
+
+#contactus a {
+		color: #9aa6b9;
+}
+	
+#page3 {
+	height:700px;
+	width:1000px;
+	}
+
+#page3 p {
+	font-size:1.5em;
+}
+
+.containter {
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	padding: 10px;
+}
+
+.servl {
+	width: 70%;
+	float: left;
+	}
+.page-padding {height:90px; width:100%;}
+
+a { color:white; text-decoration:none;}
